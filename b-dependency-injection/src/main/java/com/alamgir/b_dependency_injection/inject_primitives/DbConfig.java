@@ -43,52 +43,17 @@ public class DbConfig {
         System.out.println("setPassword and inject via Constructor method");
     }
 
-    // public DbConfig() {
-    // System.out.println("dbConfig Bean is created..");
-    // }
-
-    public int getPort() {
-        return port;
-    }
-
-    public void setPort(int port) {
-        this.port = port;
-    }
-
-    public void setUrl(String url) {
-        this.url = url;
-    }
-
-    public String getUrl() {
-        return url;
-    }
-
-    public String getUserName() {
-        return userName;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
-    public DbProfile getDbProfile() {
-        return dbProfile;
-    }
-
-    public void setDbProfile(DbProfile dbProfile) {
-        this.dbProfile = dbProfile;
-    }
-
-    public List<String> getDatabase() {
-        return database;
-    }
-
-    public void setDb(List<String> database) {
-        this.database = database;
-    }
+    // public DbConfig() {System.out.println("dbConfig Bean is created.."); }
+    public int getPort() { return port; }
+    public void setPort(int port) { this.port = port;}
+    public void setUrl(String url) {  this.url = url;}
+    public String getUrl() { return url;}
+    public String getUserName() {  return userName;}
+    public String getPassword() {  return password;}
+    public void setPassword(String password) {this.password = password;}
+    public DbProfile getDbProfile() {return dbProfile; }
+    public void setDbProfile(DbProfile dbProfile) { this.dbProfile = dbProfile; }
+    public List<String> getDatabase() {  return database;}
+    public void setDb(List<String> database) {  this.database = database;}
 
 }
