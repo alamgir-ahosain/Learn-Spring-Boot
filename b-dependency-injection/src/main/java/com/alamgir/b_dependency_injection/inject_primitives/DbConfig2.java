@@ -31,44 +31,15 @@ public class DbConfig2 {
         this.userName = userName;
     }
 
-    public DbConfig2() {
-        System.out.println("dbConfig Bean is created..");
-    }
-
-    public DbProfile getDbProfile() {
-        return dbProfile;
-    }
-
-    public void setDbProfile(DbProfile dbProfile) {
-        this.dbProfile = dbProfile;
-    }
-
-    public int getPort() {
-        return port;
-    }
-
-    public void setPort(int port) {
-        this.port = port;
-    }
-
-    public List<String> getDatabase() {
-        return database;
-    }
-
-    public void setDatabase(List<String> database) {
-        this.database = database;
-    }
-
-    public String getUrl() {
-        return url;
-    }
-
-    public void setUrl(String url) {
-        this.url = url;
-    }
-
-    public String getUserName() {
-        return userName;
-    }
+    public DbConfig2() { System.out.println("dbConfig Bean is created.."); }
+    public DbProfile getDbProfile() { return dbProfile;}
+    public void setDbProfile(DbProfile dbProfile) {this.dbProfile = dbProfile;}
+    public int getPort() { return port;}
+    public void setPort(int port) { this.port = port;}
+    public List<String> getDatabase() { return database; }
+    public void setDatabase(List<String> database) {this.database = database;}
+    public String getUrl() {  return url;}
+    public void setUrl(String url) { this.url = url;}
+    public String getUserName() {  return userName;}
 
 }
