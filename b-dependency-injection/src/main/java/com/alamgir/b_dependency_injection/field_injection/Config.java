@@ -1,4 +1,4 @@
-package com.alamgir.b_dependency_injection.fieldInjection;
+package com.alamgir.b_dependency_injection.field_injection;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
