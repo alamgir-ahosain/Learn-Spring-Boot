@@ -1,0 +1,47 @@
+
+
+Order:{
+    "name":"Alamgir",
+    "email" :"alamgir@gmail.com",
+    "mobile" :"01720214030",
+    "totalAmount": 1012.35,
+    products :[
+        {
+            "id":12,
+            "name":"pname",
+            "price": 12.12,
+            "quantity":1,
+            specification:[
+                "one",
+                "two",
+                "three"
+            ]
+        },
+         {
+            "id":1212,
+            "name":"pname",
+            "price": 12.12,
+            "quantity":1,
+            specification:[
+                "one",
+                "two",
+                "three"
+            ]
+        }
+    ],
+    delivery{
+        "streetName":"dstare",
+        "buildingName":"bname",
+        "flatNumber":12,
+        "city":"mukta",
+        "state":"mymen",
+        "pincode":1201
+    },
+
+    payment:{
+        "paidAmount":1212.13,
+        "paymentStatus":"status",
+        "bankTransaction" :"bankTransaction"
+    }
+
+}
