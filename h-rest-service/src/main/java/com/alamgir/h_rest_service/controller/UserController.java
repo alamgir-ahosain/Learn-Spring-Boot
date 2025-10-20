@@ -113,4 +113,23 @@ public class UserController {
     public String hello() {
         return "alamgir hello";
     }
+
+    // !XML format
+    @RequestMapping(path = "api/xml", method = RequestMethod.POST, consumes = { MediaType.APPLICATION_XML_VALUE,  MediaType.APPLICATION_JSON_VALUE })
+    public String checkXml(@RequestBody UserRequest userRequest) {
+        System.out.println(userRequest);
+        return "Succesfully";
+    }
+
+    @RequestMapping(path = "api/xml", method = RequestMethod.GET)
+    public UserRequest responceXmlFromat() {
+
+        UserRequest data = new UserRequest();
+        data.setFirstName("Alamgir");
+        data.setLastName("Hosain");
+        data.setEmail("alamgir@gmail.com");
+        data.setPassword("12345");
+        return data;
+    }
+
 }
