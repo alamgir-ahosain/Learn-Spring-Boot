@@ -40,7 +40,7 @@ public class UserController {
    
 
     @GetMapping("/user")
-    public String getAllUser(@Valid @RequestBody User user) throws ClassNotFoundException {
+    public String getAllUser() throws ClassNotFoundException {
         return userService.createUser();
     }
 

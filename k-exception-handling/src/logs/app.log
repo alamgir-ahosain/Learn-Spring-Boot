@@ -1,0 +1,36 @@
+2025-10-22T08:02:11.616+06:00  INFO 17848 --- [k-exception-handling] [restartedMain] c.a.k.KExceptionHandlingApplication      : Starting KExceptionHandlingApplication using Java 21.0.8 with PID 17848 (/home/alamgir/Alamgir/typeOFlanguage/Learn-Spring-Boot/k-exception-handling/target/classes started by alamgir in /home/alamgir/Alamgir/typeOFlanguage/Learn-Spring-Boot/k-exception-handling)
+2025-10-22T08:02:11.616+06:00  INFO 17848 --- [k-exception-handling] [restartedMain] c.a.k.KExceptionHandlingApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-10-22T08:02:11.832+06:00  INFO 17848 --- [k-exception-handling] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-22T08:02:11.835+06:00  INFO 17848 --- [k-exception-handling] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2025-10-22T08:02:11.887+06:00  INFO 17848 --- [k-exception-handling] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8088 (http)
+2025-10-22T08:02:11.888+06:00  INFO 17848 --- [k-exception-handling] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-22T08:02:11.888+06:00  INFO 17848 --- [k-exception-handling] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-22T08:02:11.894+06:00  INFO 17848 --- [k-exception-handling] [restartedMain] o.a.c.c.C.[.[localhost].[/alamgir]       : Initializing Spring embedded WebApplicationContext
+2025-10-22T08:02:11.894+06:00  INFO 17848 --- [k-exception-handling] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 277 ms
+2025-10-22T08:02:11.931+06:00  INFO 17848 --- [k-exception-handling] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2025-10-22T08:02:11.938+06:00  INFO 17848 --- [k-exception-handling] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection org.postgresql.jdbc.PgConnection@2ec52c25
+2025-10-22T08:02:11.939+06:00  INFO 17848 --- [k-exception-handling] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2025-10-22T08:02:11.939+06:00  INFO 17848 --- [k-exception-handling] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-22T08:02:11.940+06:00  INFO 17848 --- [k-exception-handling] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-22T08:02:11.949+06:00  INFO 17848 --- [k-exception-handling] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-22T08:02:11.957+06:00  INFO 17848 --- [k-exception-handling] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-4)']
+	Database driver: undefined/unknown
+	Database version: 17.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-22T08:02:11.968+06:00  INFO 17848 --- [k-exception-handling] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-22T08:02:11.969+06:00  INFO 17848 --- [k-exception-handling] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-22T08:02:11.986+06:00  WARN 17848 --- [k-exception-handling] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-22T08:02:12.131+06:00  INFO 17848 --- [k-exception-handling] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-22T08:02:12.133+06:00  INFO 17848 --- [k-exception-handling] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
+2025-10-22T08:02:12.164+06:00  INFO 17848 --- [k-exception-handling] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8088 (http) with context path '/alamgir'
+2025-10-22T08:02:12.171+06:00  INFO 17848 --- [k-exception-handling] [restartedMain] c.a.k.KExceptionHandlingApplication      : Started KExceptionHandlingApplication in 0.58 seconds (process running for 173.579)
+2025-10-22T08:02:12.173+06:00  INFO 17848 --- [k-exception-handling] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-22T08:02:33.814+06:00  INFO 17848 --- [k-exception-handling] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-22T08:02:33.815+06:00  INFO 17848 --- [k-exception-handling] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-22T08:02:33.818+06:00  INFO 17848 --- [k-exception-handling] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-22T08:02:33.819+06:00  INFO 17848 --- [k-exception-handling] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2025-10-22T08:02:33.821+06:00  INFO 17848 --- [k-exception-handling] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
