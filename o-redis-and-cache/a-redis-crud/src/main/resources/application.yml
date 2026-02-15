@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: a-redis-crud
+  data:
+    redis:
+      host: localhost
+      port: 6379
+
+
